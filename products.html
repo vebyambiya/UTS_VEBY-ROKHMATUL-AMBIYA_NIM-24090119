@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. Halaman List Data Produk</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="app-layout">
+        <div class="sidebar">
+            <a href="dashboard.html" title="Dashboard"><i class="fas fa-home"></i></a>
+            <a href="#" title="Menu Utama"><i class="fas fa-th-large"></i></a> 
+            <a href="products.html" class="active" title="Products"><i class="fas fa-box-open"></i></a>
+            <a href="#" title="Laporan/Catatan"><i class="fas fa-file-alt"></i></a> 
+            <a href="#" title="Settings"><i class="fas fa-cog"></i></a>
+            <div style="flex-grow: 1;"></div>
+            <a href="index.html" title="Logout"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+
+        <div class="main-content">
+            <div class="page-header">
+                <h2>List Data Product</h2>
+            </div>
+
+            <div class="product-table-wrapper">
+                <table class="product-table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Product Name</th>
+                            <th class="text-right">Price</th>
+                            <th class="text-center">Stock</th>
+                            <th class="text-center">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productTableBody">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
